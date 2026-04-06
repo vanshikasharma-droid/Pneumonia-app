@@ -1,7 +1,9 @@
 import streamlit as st
-import tensorflow as tf
-from tensorflow.keras.preprocessing import image
+import streamlit as st
 import numpy as np
+from PIL import Image
+
+
 
 # Load model
 model = tf.keras.models.load_model("model.h5")
