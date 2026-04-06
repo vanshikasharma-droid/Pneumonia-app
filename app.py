@@ -1,10 +1,10 @@
 import streamlit as st
-from tensorflow.keras.models import load_model
+import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 import numpy as np
 
 # Load model
-model = load_model("model.h5")
+model = tf.keras.models.load_model("model.h5")
 
 st.title("🫁 Pneumonia Detection App")
 
